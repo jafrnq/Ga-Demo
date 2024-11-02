@@ -1,7 +1,7 @@
 import datetime;
 
 date = datetime.datetime.now().strftime("%d/%m/%Y %H:%M:%S");
-finalOutputString = print("Test Successfully ran at:" + date)
+finalOutputString = "Test Successfully ran at:" + date
 
 #open a text file
 with open("testResults.txt", "w") as file:
